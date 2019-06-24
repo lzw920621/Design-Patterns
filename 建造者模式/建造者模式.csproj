@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{054030BD-C14E-4183-99FD-2CAA298F6BF7}</ProjectGuid>
+    <ProjectGuid>{9FD09892-F4D1-4309-9D28-3249D6445897}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>抽象工厂模式</RootNamespace>
-    <AssemblyName>抽象工厂模式</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>建造者模式</RootNamespace>
+    <AssemblyName>建造者模式</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -50,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="抽象工厂模式.PNG" />
+    <Content Include="建造者模式.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,9 +9,9 @@ namespace 单例模式
     sealed class Singleton
     {
         static readonly Singleton singleton = new Singleton();
-        private Singleton()
+        private Singleton()//构造函数
         {
-
+            
         }
 
         public static Singleton GetSingleton
